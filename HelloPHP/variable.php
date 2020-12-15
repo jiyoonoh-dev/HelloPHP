@@ -2,6 +2,20 @@
 
 <body>
 <?php
+//변수 초기값 안넣었을 때
+echo "<h1>변수 초기값이 없다면, PHP VS JavaScript</h1>";
+$aa;
+echo "<h3>PHP</h3>";
+var_dump($aa);
+echo "<br>";
+?>
+
+<script>
+var a;
+document.write("<h3>JavaScript</h3>"+typeof a);
+</script>
+
+<?php
 //변수 선언하기
 echo "<h1>변수에 int 넣기</h1>";
 $a = 1;
@@ -46,7 +60,6 @@ echo "$aaa<br>";
 echo "${$aaa}<br>";
 echo "$Hello<br>";
 echo "$aaa ${$aaa}";
-
 ?>
 </body>
 
