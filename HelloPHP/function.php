@@ -31,9 +31,10 @@ echo arg("Hi Argument:)");
 
 
 echo "<h1>인자 초기값 설정하기</h1>";
-function arg($aa=100){
+function arg1($aa=100){
     return $aa;
 }
-echo arg("HiHi<br>");
-echo arg();
+echo arg1("HiHi<br>");
+echo arg1();
+
 ?>
